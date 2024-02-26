@@ -6,6 +6,8 @@ ENV TZ=Asia/Tokyo
 
 WORKDIR ${ROOT}
 
+RUN unminimize
+
 # パッケージ一覧の更新
 RUN apt update
 
